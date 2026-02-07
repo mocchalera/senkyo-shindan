@@ -1255,6 +1255,48 @@
             "本診断では傾向値として表示"
           ],
           position: { economic: 12, social: 26 }
+        },
+        {
+          id: "mirai",
+          name: "チームみらい",
+          short: "みらい",
+          color: "#00bcd4",
+          description: "堀江貴文が創設。テクノロジー・規制改革で社会課題解決、グローバル競争力重視",
+          highlights: [
+            "テクノロジー推進と規制改革",
+            "行政DXとデジタル化推進",
+            "グローバル人材の受け入れ推進",
+            "スタートアップ支援"
+          ],
+          position: { economic: -35, social: 15 }
+        },
+        {
+          id: "hoshu",
+          name: "日本保守党",
+          short: "保守党",
+          color: "#1a237e",
+          description: "百田尚樹が創設。日本の伝統・文化を守り、国益最優先の保守政策",
+          highlights: [
+            "移民政策の厳格化",
+            "消費税減税",
+            "防衛力の大幅強化",
+            "憲法改正推進"
+          ],
+          position: { economic: -15, social: 88 }
+        },
+        {
+          id: "genzei",
+          name: "減税日本・ゆうこく連合",
+          short: "減税",
+          color: "#43a047",
+          description: "河村たかしが創設。減税と議員特権廃止で庶民の手取りを増やすことを最重視",
+          highlights: [
+            "消費税5%への引き下げ",
+            "議員報酬の大幅削減",
+            "市民税減税を全国へ",
+            "既得権益の打破"
+          ],
+          position: { economic: 15, social: 25 }
         }
       ];
 
@@ -1281,33 +1323,36 @@
             reiwa: "即時廃止",
             sdp: "消費税ゼロを目標",
             sanseito: "廃止",
-            nhk: "本データでは明示的な税率方針情報が限定的"
+            nhk: "本データでは明示的な税率方針情報が限定的",
+            mirai: "規制改革による行政コスト削減を優先",
+            hoshu: "消費税減税",
+            genzei: "消費税5%への引き下げ"
           },
           options: [
             {
               id: "A",
               text: "食料品だけでも期間限定で減税すべき",
-              scores: { ldp: 3, ishin: 1, reform: 1, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 3, ishin: 1, reform: 1, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 2, hoshu: 1, genzei: 1 }
             },
             {
               id: "B",
               text: "食料品は恒久的にゼロにすべき",
-              scores: { ldp: 0, ishin: 0, reform: 3, dpfp: 1, jcp: 2, reiwa: 2, sdp: 2, sanseito: 1, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 3, dpfp: 1, jcp: 2, reiwa: 2, sdp: 2, sanseito: 1, nhk: 1, mirai: 1, hoshu: 1, genzei: 2 }
             },
             {
               id: "C",
               text: "消費税率自体を5%以下に引き下げるべき",
-              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 1, jcp: 3, reiwa: 1, sdp: 1, sanseito: 2, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 1, jcp: 3, reiwa: 1, sdp: 1, sanseito: 2, nhk: 1, mirai: 1, hoshu: 2, genzei: 3 }
             },
             {
               id: "D",
               text: "消費税は廃止すべき",
-              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 0, jcp: 2, reiwa: 3, sdp: 3, sanseito: 2, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 0, jcp: 2, reiwa: 3, sdp: 3, sanseito: 2, nhk: 1, mirai: 0, hoshu: 1, genzei: 2 }
             },
             {
               id: "E",
               text: "消費税より社会保険料の軽減を優先すべき",
-              scores: { ldp: 1, ishin: 3, reform: 2, dpfp: 3, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1 }
+              scores: { ldp: 1, ishin: 3, reform: 2, dpfp: 3, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1, mirai: 2, hoshu: 1, genzei: 1 }
             }
           ]
         },
@@ -1326,28 +1371,31 @@
             reiwa: "原発即時廃止",
             sdp: "脱原発",
             sanseito: "段階的見直しを含む慎重姿勢",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "テクノロジー活用で段階的にエネルギー転換",
+            hoshu: "原発再稼働でエネルギー安全保障",
+            genzei: "現実的なエネルギー政策"
           },
           options: [
             {
               id: "A",
               text: "原発を積極的に活用し、エネルギー安全保障を強化すべき",
-              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 2, hoshu: 3, genzei: 1 }
             },
             {
               id: "B",
               text: "安全が確認された原発は再稼働しつつ、依存度は下げていくべき",
-              scores: { ldp: 2, ishin: 3, reform: 3, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 2, ishin: 3, reform: 3, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 2, hoshu: 2, genzei: 2 }
             },
             {
               id: "C",
               text: "原発は段階的に減らし、再エネに転換すべき",
-              scores: { ldp: 0, ishin: 1, reform: 2, dpfp: 1, jcp: 2, reiwa: 1, sdp: 2, sanseito: 1, nhk: 1 }
+              scores: { ldp: 0, ishin: 1, reform: 2, dpfp: 1, jcp: 2, reiwa: 1, sdp: 2, sanseito: 1, nhk: 1, mirai: 2, hoshu: 0, genzei: 1 }
             },
             {
               id: "D",
               text: "原発は即時停止・廃止すべき",
-              scores: { ldp: 0, ishin: 0, reform: 0, dpfp: 0, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 0, dpfp: 0, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1, mirai: 0, hoshu: 0, genzei: 0 }
             }
           ]
         },
@@ -1366,33 +1414,36 @@
             reiwa: "安保法制見直し・平和外交重視",
             sdp: "安保法制廃止、憲法9条に基づく平和外交",
             sanseito: "安全保障強化に前向き",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "日米同盟を基軸にテクノロジー防衛強化",
+            hoshu: "防衛力の大幅強化と憲法改正",
+            genzei: "現実的な防衛力整備"
           },
           options: [
             {
               id: "A",
               text: "防衛力を大幅強化し、装備品輸出も拡大すべき",
-              scores: { ldp: 3, ishin: 2, reform: 0, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1 }
+              scores: { ldp: 3, ishin: 2, reform: 0, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1, mirai: 1, hoshu: 3, genzei: 1 }
             },
             {
               id: "B",
               text: "核共有も含めた抑止力の議論を始めるべき",
-              scores: { ldp: 2, ishin: 3, reform: 0, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1 }
+              scores: { ldp: 2, ishin: 3, reform: 0, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1, mirai: 1, hoshu: 3, genzei: 1 }
             },
             {
               id: "C",
               text: "日米同盟を基軸に、現実的な防衛力を維持すべき",
-              scores: { ldp: 2, ishin: 2, reform: 1, dpfp: 3, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 2, ishin: 2, reform: 1, dpfp: 3, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 2, hoshu: 2, genzei: 2 }
             },
             {
               id: "D",
               text: "武器輸出には歯止めをかけ、外交重視で",
-              scores: { ldp: 0, ishin: 0, reform: 3, dpfp: 1, jcp: 2, reiwa: 2, sdp: 2, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 3, dpfp: 1, jcp: 2, reiwa: 2, sdp: 2, sanseito: 0, nhk: 1, mirai: 1, hoshu: 0, genzei: 1 }
             },
             {
               id: "E",
               text: "安保法制を見直し、平和外交を基本とすべき",
-              scores: { ldp: 0, ishin: 0, reform: 2, dpfp: 0, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 2, dpfp: 0, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1, mirai: 0, hoshu: 0, genzei: 0 }
             }
           ]
         },
@@ -1411,23 +1462,26 @@
             reiwa: "改憲反対",
             sdp: "改憲反対",
             sanseito: "創憲（新しい憲法の制定）を提唱",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "時代に合わせた改正に前向き",
+            hoshu: "憲法改正を強く推進",
+            genzei: "改正議論には参加"
           },
           options: [
             {
               id: "A",
               text: "自衛隊を明記する改正を進めるべき",
-              scores: { ldp: 3, ishin: 2, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 3, nhk: 1 }
+              scores: { ldp: 3, ishin: 2, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 3, nhk: 1, mirai: 1, hoshu: 3, genzei: 1 }
             },
             {
               id: "B",
               text: "時代に合わせた改正は必要だが、慎重に議論すべき",
-              scores: { ldp: 1, ishin: 2, reform: 3, dpfp: 3, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1 }
+              scores: { ldp: 1, ishin: 2, reform: 3, dpfp: 3, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1, mirai: 2, hoshu: 1, genzei: 2 }
             },
             {
               id: "C",
               text: "現行憲法を守り、改正には反対",
-              scores: { ldp: 0, ishin: 0, reform: 2, dpfp: 1, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 2, dpfp: 1, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1, mirai: 0, hoshu: 0, genzei: 0 }
             }
           ]
         },
@@ -1446,28 +1500,31 @@
             reiwa: "社会保険料引き下げ、現金10万円一律給付",
             sdp: "福祉充実を重視",
             sanseito: "積極財政を背景に家計支援を重視",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "テクノロジーで行政効率化し社会保障を維持",
+            hoshu: "制度の持続性と自助努力を重視",
+            genzei: "減税で手取りを増やし生活支援"
           },
           options: [
             {
               id: "A",
               text: "制度の持続可能性を重視し、効率化を進めるべき",
-              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 2, hoshu: 2, genzei: 1 }
             },
             {
               id: "B",
               text: "社会保険料を引き下げ、現役世代の負担を軽減すべき",
-              scores: { ldp: 1, ishin: 3, reform: 3, dpfp: 3, jcp: 1, reiwa: 2, sdp: 1, sanseito: 1, nhk: 1 }
+              scores: { ldp: 1, ishin: 3, reform: 3, dpfp: 3, jcp: 1, reiwa: 2, sdp: 1, sanseito: 1, nhk: 1, mirai: 2, hoshu: 1, genzei: 2 }
             },
             {
               id: "C",
               text: "年金給付を引き上げ、高齢者の生活を守るべき",
-              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 0, jcp: 3, reiwa: 2, sdp: 2, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 0, jcp: 3, reiwa: 2, sdp: 2, sanseito: 0, nhk: 1, mirai: 0, hoshu: 1, genzei: 0 }
             },
             {
               id: "D",
               text: "現金給付など、直接的な支援を拡大すべき",
-              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 1, jcp: 2, reiwa: 3, sdp: 2, sanseito: 2, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 1, jcp: 2, reiwa: 3, sdp: 2, sanseito: 2, nhk: 1, mirai: 1, hoshu: 1, genzei: 2 }
             }
           ]
         },
@@ -1486,28 +1543,31 @@
             reiwa: "直接給付を含む大胆支援",
             sdp: "子育て世帯への公的支援拡充",
             sanseito: "子供1人月10万円の教育給付金",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "テクノロジーと民間活力で子育て支援",
+            hoshu: "家庭の価値を重視した子育て支援",
+            genzei: "減税で子育て世帯の負担軽減"
           },
           options: [
             {
               id: "A",
               text: "児童手当や教育無償化を着実に拡充すべき",
-              scores: { ldp: 3, ishin: 1, reform: 3, dpfp: 2, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1 }
+              scores: { ldp: 3, ishin: 1, reform: 3, dpfp: 2, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1, mirai: 1, hoshu: 2, genzei: 1 }
             },
             {
               id: "B",
               text: "子育て世帯への大胆な経済支援（月10万円級）が必要",
-              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 1, jcp: 1, reiwa: 2, sdp: 1, sanseito: 3, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 1, jcp: 1, reiwa: 2, sdp: 1, sanseito: 3, nhk: 1, mirai: 0, hoshu: 1, genzei: 1 }
             },
             {
               id: "C",
               text: "若者への家賃補助など生活全般の支援が重要",
-              scores: { ldp: 1, ishin: 1, reform: 3, dpfp: 2, jcp: 1, reiwa: 2, sdp: 1, sanseito: 1, nhk: 1 }
+              scores: { ldp: 1, ishin: 1, reform: 3, dpfp: 2, jcp: 1, reiwa: 2, sdp: 1, sanseito: 1, nhk: 1, mirai: 1, hoshu: 0, genzei: 1 }
             },
             {
               id: "D",
               text: "教育の質向上と教員支援を優先すべき",
-              scores: { ldp: 2, ishin: 2, reform: 2, dpfp: 2, jcp: 2, reiwa: 1, sdp: 2, sanseito: 1, nhk: 1 }
+              scores: { ldp: 2, ishin: 2, reform: 2, dpfp: 2, jcp: 2, reiwa: 1, sdp: 2, sanseito: 1, nhk: 1, mirai: 2, hoshu: 1, genzei: 1 }
             }
           ]
         },
@@ -1526,28 +1586,31 @@
             reiwa: "排除より生活支援と共生を重視",
             sdp: "多文化共生を重視",
             sanseito: "国民の生活を守る政策優先、不動産取得規制強化",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "グローバル人材の積極受け入れ",
+            hoshu: "移民政策の大幅厳格化",
+            genzei: "バランスのとれた外国人政策"
           },
           options: [
             {
               id: "A",
               text: "土地や不動産の取得を厳しく規制すべき",
-              scores: { ldp: 3, ishin: 1, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1 }
+              scores: { ldp: 3, ishin: 1, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1, mirai: 0, hoshu: 3, genzei: 1 }
             },
             {
               id: "B",
               text: "日本人を優先する政策を明確にすべき",
-              scores: { ldp: 1, ishin: 1, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 3, nhk: 2 }
+              scores: { ldp: 1, ishin: 1, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 3, nhk: 2, mirai: 0, hoshu: 3, genzei: 1 }
             },
             {
               id: "C",
               text: "外国人労働者の受け入れは経済のために必要",
-              scores: { ldp: 2, ishin: 2, reform: 2, dpfp: 2, jcp: 1, reiwa: 1, sdp: 1, sanseito: 0, nhk: 1 }
+              scores: { ldp: 2, ishin: 2, reform: 2, dpfp: 2, jcp: 1, reiwa: 1, sdp: 1, sanseito: 0, nhk: 1, mirai: 3, hoshu: 0, genzei: 1 }
             },
             {
               id: "D",
               text: "多文化共生社会の実現を目指すべき",
-              scores: { ldp: 0, ishin: 1, reform: 3, dpfp: 1, jcp: 2, reiwa: 2, sdp: 2, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 1, reform: 3, dpfp: 1, jcp: 2, reiwa: 2, sdp: 2, sanseito: 0, nhk: 1, mirai: 2, hoshu: 0, genzei: 1 }
             }
           ]
         },
@@ -1566,33 +1629,36 @@
             reiwa: "積極財政、現金給付",
             sdp: "再分配と生活支援を重視",
             sanseito: "積極財政、GDP1000兆円",
-            nhk: "本データでは詳細方針の公開情報が限定的"
+            nhk: "本データでは詳細方針の公開情報が限定的",
+            mirai: "イノベーションと規制改革で成長",
+            hoshu: "国益重視の経済政策",
+            genzei: "減税による経済活性化"
           },
           options: [
             {
               id: "A",
               text: "成長投資と規制改革で経済を活性化",
-              scores: { ldp: 3, ishin: 3, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 3, ishin: 3, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 3, hoshu: 2, genzei: 1 }
             },
             {
               id: "B",
               text: "地方分権と副首都で東京一極集中を解消",
-              scores: { ldp: 1, ishin: 3, reform: 1, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1 }
+              scores: { ldp: 1, ishin: 3, reform: 1, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1, mirai: 1, hoshu: 1, genzei: 1 }
             },
             {
               id: "C",
               text: "生活者の手取りを増やすことが最優先",
-              scores: { ldp: 1, ishin: 2, reform: 3, dpfp: 3, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1 }
+              scores: { ldp: 1, ishin: 2, reform: 3, dpfp: 3, jcp: 1, reiwa: 1, sdp: 1, sanseito: 1, nhk: 1, mirai: 1, hoshu: 1, genzei: 3 }
             },
             {
               id: "D",
               text: "大企業・富裕層への課税を強化し再分配",
-              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 0, jcp: 3, reiwa: 2, sdp: 3, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 1, dpfp: 0, jcp: 3, reiwa: 2, sdp: 3, sanseito: 0, nhk: 1, mirai: 0, hoshu: 0, genzei: 0 }
             },
             {
               id: "E",
               text: "積極的な財政出動で景気を刺激",
-              scores: { ldp: 1, ishin: 0, reform: 1, dpfp: 1, jcp: 2, reiwa: 3, sdp: 2, sanseito: 3, nhk: 1 }
+              scores: { ldp: 1, ishin: 0, reform: 1, dpfp: 1, jcp: 2, reiwa: 3, sdp: 2, sanseito: 3, nhk: 1, mirai: 1, hoshu: 1, genzei: 2 }
             }
           ]
         },
@@ -1611,28 +1677,31 @@
             reiwa: "資金の透明化と規制強化を主張",
             sdp: "企業・団体献金の全面禁止を主張",
             sanseito: "政治資金の透明化強化を主張",
-            nhk: "政治資金の徹底可視化を強調"
+            nhk: "政治資金の徹底可視化を強調",
+            mirai: "デジタル化による政治の透明化",
+            hoshu: "既存政党の改革を求める",
+            genzei: "議員特権の廃止と報酬削減"
           },
           options: [
             {
               id: "A",
               text: "企業・団体献金は透明性を高めれば問題ない",
-              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1 }
+              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 1, nhk: 1, mirai: 1, hoshu: 1, genzei: 0 }
             },
             {
               id: "B",
               text: "企業・団体献金は規制を強化すべき",
-              scores: { ldp: 1, ishin: 2, reform: 3, dpfp: 2, jcp: 2, reiwa: 2, sdp: 2, sanseito: 1, nhk: 1 }
+              scores: { ldp: 1, ishin: 2, reform: 3, dpfp: 2, jcp: 2, reiwa: 2, sdp: 2, sanseito: 1, nhk: 1, mirai: 1, hoshu: 2, genzei: 1 }
             },
             {
               id: "C",
               text: "企業・団体献金は全面禁止すべき",
-              scores: { ldp: 0, ishin: 1, reform: 2, dpfp: 1, jcp: 3, reiwa: 2, sdp: 3, sanseito: 1, nhk: 1 }
+              scores: { ldp: 0, ishin: 1, reform: 2, dpfp: 1, jcp: 3, reiwa: 2, sdp: 3, sanseito: 1, nhk: 1, mirai: 1, hoshu: 2, genzei: 2 }
             },
             {
               id: "D",
               text: "政治資金そのものの大幅な透明化が必要",
-              scores: { ldp: 1, ishin: 2, reform: 2, dpfp: 2, jcp: 2, reiwa: 2, sdp: 2, sanseito: 2, nhk: 3 }
+              scores: { ldp: 1, ishin: 2, reform: 2, dpfp: 2, jcp: 2, reiwa: 2, sdp: 2, sanseito: 2, nhk: 3, mirai: 3, hoshu: 2, genzei: 3 }
             }
           ]
         },
@@ -1651,28 +1720,31 @@
             reiwa: "誰も取り残さない再分配重視",
             sdp: "公正と尊厳を重視する社会を目指す",
             sanseito: "伝統と文化を守る国家像を重視",
-            nhk: "既存制度の透明化と国民参加を重視"
+            nhk: "既存制度の透明化と国民参加を重視",
+            mirai: "テクノロジーで世界をリードする国",
+            hoshu: "伝統と文化を守る誇りある国",
+            genzei: "減税で庶民が暮らしやすい国"
           },
           options: [
             {
               id: "A",
               text: "経済大国・技術立国として国際的プレゼンスを高める",
-              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1 }
+              scores: { ldp: 3, ishin: 2, reform: 1, dpfp: 2, jcp: 0, reiwa: 0, sdp: 0, sanseito: 2, nhk: 1, mirai: 3, hoshu: 2, genzei: 1 }
             },
             {
               id: "B",
               text: "安全で豊かな生活を送れる「暮らしやすい国」",
-              scores: { ldp: 2, ishin: 2, reform: 3, dpfp: 3, jcp: 1, reiwa: 1, sdp: 2, sanseito: 1, nhk: 1 }
+              scores: { ldp: 2, ishin: 2, reform: 3, dpfp: 3, jcp: 1, reiwa: 1, sdp: 2, sanseito: 1, nhk: 1, mirai: 1, hoshu: 1, genzei: 3 }
             },
             {
               id: "C",
               text: "格差がなく誰もが尊重される「公正な社会」",
-              scores: { ldp: 0, ishin: 0, reform: 2, dpfp: 1, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1 }
+              scores: { ldp: 0, ishin: 0, reform: 2, dpfp: 1, jcp: 3, reiwa: 3, sdp: 3, sanseito: 0, nhk: 1, mirai: 0, hoshu: 0, genzei: 1 }
             },
             {
               id: "D",
               text: "伝統と文化を守り、日本らしさを大切にする国",
-              scores: { ldp: 2, ishin: 1, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 3, nhk: 2 }
+              scores: { ldp: 2, ishin: 1, reform: 0, dpfp: 1, jcp: 0, reiwa: 0, sdp: 0, sanseito: 3, nhk: 2, mirai: 0, hoshu: 3, genzei: 1 }
             }
           ]
         }

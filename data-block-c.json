@@ -3,7 +3,7 @@
     "東海": {
       "prefectures": ["岐阜県", "静岡県", "愛知県", "三重県"],
       "proportionalSeats": 20,
-      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk", "genzei"],
       "districts": {
         "岐阜1区": {
           "area": "",
@@ -103,7 +103,7 @@
           "candidates": [
             {"name": "熊田裕通", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "吉田統彦", "partyId": "reform", "partyName": "中道改革連合"},
-            {"name": "河村たかし", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "河村たかし", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "近田茜", "partyId": "sanseito", "partyName": "参政党"}
           ]
         },
@@ -112,7 +112,7 @@
           "candidates": [
             {"name": "酒井健太朗", "partyId": "jcp", "partyName": "日本共産党"},
             {"name": "辻秀樹", "partyId": "ldp", "partyName": "自由民主党"},
-            {"name": "梅村忠司", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "梅村忠司", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "古川元久", "partyId": "dpfp", "partyName": "国民民主党"}
           ]
         },
@@ -122,14 +122,14 @@
             {"name": "柴田民雄", "partyId": "jcp", "partyName": "日本共産党"},
             {"name": "水野良彦", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "皆川雅一", "partyId": "ishin", "partyName": "日本維新の会"},
-            {"name": "平岩征樹", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "平岩征樹", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "近藤昭一", "partyId": "reform", "partyName": "中道改革連合"}
           ]
         },
         "愛知4区": {
           "area": "",
           "candidates": [
-            {"name": "志村康博", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "志村康博", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "高橋祐介", "partyId": "jcp", "partyName": "日本共産党"},
             {"name": "中田千代", "partyId": "ishin", "partyName": "日本維新の会"},
             {"name": "牧義夫", "partyId": "reform", "partyName": "中道改革連合"},
@@ -141,7 +141,7 @@
           "area": "",
           "candidates": [
             {"name": "神田憲次", "partyId": "ind", "partyName": "無所属"},
-            {"name": "田中克和", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "田中克和", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "渡辺藍理", "partyId": "sanseito", "partyName": "参政党"},
             {"name": "岡本康宏", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "西川厚志", "partyId": "reform", "partyName": "中道改革連合"},
@@ -152,7 +152,7 @@
           "area": "",
           "candidates": [
             {"name": "大西雅人", "partyId": "sdp", "partyName": "社会民主党"},
-            {"name": "橋本勉", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "橋本勉", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "国崎信江", "partyId": "reform", "partyName": "中道改革連合"},
             {"name": "春日舞", "partyId": "sanseito", "partyName": "参政党"},
             {"name": "丹羽秀樹", "partyId": "ldp", "partyName": "自由民主党"}
@@ -171,7 +171,7 @@
           "candidates": [
             {"name": "伴野豊", "partyId": "reform", "partyName": "中道改革連合"},
             {"name": "伊藤忠彦", "partyId": "ldp", "partyName": "自由民主党"},
-            {"name": "中川健一", "partyId": "other", "partyName": "日本保守党"}
+            {"name": "中川健一", "partyId": "hoshu", "partyName": "日本保守党"}
           ]
         },
         "愛知9区": {
@@ -233,14 +233,14 @@
             {"name": "根本幸典", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "鈴木勝裕", "partyId": "sanseito", "partyName": "参政党"},
             {"name": "辻恵", "partyId": "reiwa", "partyName": "れいわ新選組"},
-            {"name": "竹上裕子", "partyId": "other", "partyName": "減税日本・ゆうこく連合"}
+            {"name": "竹上裕子", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"}
           ]
         },
         "愛知16区": {
           "area": "",
           "candidates": [
             {"name": "渡辺信江", "partyId": "sanseito", "partyName": "参政党"},
-            {"name": "前田雄吉", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "前田雄吉", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "山下史守朗", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "松田功", "partyId": "reform", "partyName": "中道改革連合"},
             {"name": "福田徹", "partyId": "dpfp", "partyName": "国民民主党"}
@@ -268,7 +268,7 @@
             {"name": "岡田克也", "partyId": "reform", "partyName": "中道改革連合"},
             {"name": "新谷恵", "partyId": "sanseito", "partyName": "参政党"},
             {"name": "衣笠民子", "partyId": "jcp", "partyName": "日本共産党"},
-            {"name": "伊藤昌志", "partyId": "other", "partyName": "日本保守党"},
+            {"name": "伊藤昌志", "partyId": "hoshu", "partyName": "日本保守党"},
             {"name": "石原正敬", "partyId": "ldp", "partyName": "自由民主党"}
           ]
         },
@@ -285,7 +285,7 @@
     "近畿": {
       "prefectures": ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
       "proportionalSeats": 28,
-      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk", "mirai"],
       "districts": {
         "滋賀1区": {
           "area": "",
@@ -318,7 +318,7 @@
         "京都1区": {
           "area": "",
           "candidates": [
-            {"name": "堀場幸子", "partyId": "other", "partyName": "チームみらい"},
+            {"name": "堀場幸子", "partyId": "mirai", "partyName": "チームみらい"},
             {"name": "勝目康", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "平竹耕三", "partyId": "reform", "partyName": "中道改革連合"},
             {"name": "谷口青人", "partyId": "sanseito", "partyName": "参政党"},
@@ -335,7 +335,7 @@
             {"name": "辻村千尋", "partyId": "reiwa", "partyName": "れいわ新選組"},
             {"name": "堀川朗子", "partyId": "jcp", "partyName": "日本共産党"},
             {"name": "河野有里子", "partyId": "reform", "partyName": "中道改革連合"},
-            {"name": "酒井勇輔", "partyId": "other", "partyName": "チームみらい"},
+            {"name": "酒井勇輔", "partyId": "mirai", "partyName": "チームみらい"},
             {"name": "前原誠司", "partyId": "ishin", "partyName": "日本維新の会"}
           ]
         },

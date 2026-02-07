@@ -345,7 +345,7 @@
         "佐賀1区": {
           "area": "佐賀市、鳥栖市、神埼市、神埼郡、三養基郡",
           "candidates": [
-            {"name": "原口一博", "partyId": "other", "partyName": "減税日本・ゆうこく連合"},
+            {"name": "原口一博", "partyId": "genzei", "partyName": "減税日本・ゆうこく連合"},
             {"name": "岩田和親", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "重松貴美", "partyId": "sanseito", "partyName": "参政党"}
           ]
@@ -439,7 +439,7 @@
             {"name": "岩屋毅", "partyId": "ldp", "partyName": "自由民主党"},
             {"name": "小林華弥子", "partyId": "reform", "partyName": "中道改革連合"},
             {"name": "野中貴恵", "partyId": "sanseito", "partyName": "参政党"},
-            {"name": "岩永京子", "partyId": "other", "partyName": "日本保守党"},
+            {"name": "岩永京子", "partyId": "hoshu", "partyName": "日本保守党"},
             {"name": "平野雨龍", "partyId": "ind", "partyName": "無所属"}
           ]
         },
