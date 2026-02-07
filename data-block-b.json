@@ -1,0 +1,900 @@
+{
+  "blocks": {
+    "北関東": {
+      "prefectures": ["茨城県", "栃木県", "群馬県", "埼玉県"],
+      "proportionalSeats": 19,
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "districts": {
+        "茨城1区": {
+          "area": "",
+          "candidates": [
+            {"name": "田所嘉徳", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "福島伸享", "partyId": "ind", "partyName": "無所属"},
+            {"name": "大内久美子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "川端絢美", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "茨城2区": {
+          "area": "",
+          "candidates": [
+            {"name": "額賀福志郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小沼巧", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "谷川祐一", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "宮内匠", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "茨城3区": {
+          "area": "",
+          "candidates": [
+            {"name": "葉梨康弘", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "梶岡博樹", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "加川裕美", "partyId": "reiwa", "partyName": "れいわ新選組"},
+            {"name": "斎藤真衣", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "茨城4区": {
+          "area": "",
+          "candidates": [
+            {"name": "梶山弘志", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "吉田翔", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "茨城5区": {
+          "area": "",
+          "candidates": [
+            {"name": "鈴木拓海", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "浅野哲", "partyId": "dpfp", "partyName": "国民民主党"}
+          ]
+        },
+        "茨城6区": {
+          "area": "",
+          "candidates": [
+            {"name": "国光文乃", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "青山大人", "partyId": "ind", "partyName": "無所属"},
+            {"name": "稲葉英樹", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "堀越麻紀", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "中村吉男", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "茨城7区": {
+          "area": "",
+          "candidates": [
+            {"name": "永岡桂子", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "中村勇太", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "栃木1区": {
+          "area": "",
+          "candidates": [
+            {"name": "船田元", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小池篤史", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "柏倉祐司", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "青木弘", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "大森紀明", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "石川文三郎", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "栃木2区": {
+          "area": "",
+          "candidates": [
+            {"name": "五十嵐清", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "福田昭夫", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "藤田久美", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "栃木3区": {
+          "area": "",
+          "candidates": [
+            {"name": "簗和生", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "伊賀央", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "渡辺真太朗", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "栃木4区": {
+          "area": "",
+          "candidates": [
+            {"name": "石坂太", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "藤岡隆雄", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "野口智子", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "大貫学", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "群馬1区": {
+          "area": "",
+          "candidates": [
+            {"name": "中曽根康隆", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "河村正剛", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "店橋世津子", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "群馬2区": {
+          "area": "",
+          "candidates": [
+            {"name": "井野俊郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "原和隆", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "高橋保", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "石関貴史", "partyId": "ind", "partyName": "無所属"},
+            {"name": "熊井戸園子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "群馬3区": {
+          "area": "",
+          "candidates": [
+            {"name": "笹川博義", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "長谷川嘉一", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "群馬4区": {
+          "area": "",
+          "candidates": [
+            {"name": "福田達夫", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山田博規", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "伊藤達也", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "青木ひとみ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉1区": {
+          "area": "",
+          "candidates": [
+            {"name": "村井英樹", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "武正公一", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "菅又士廊", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "羽田一樹", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "埼玉2区": {
+          "area": "",
+          "candidates": [
+            {"name": "新藤義孝", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "高橋英明", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "細谷勇人", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "菅野静華", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉3区": {
+          "area": "",
+          "candidates": [
+            {"name": "黄川田仁志", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "竹内千春", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "中村尚子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉4区": {
+          "area": "",
+          "candidates": [
+            {"name": "穂坂泰", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "伊勢田享子", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "岸田光広", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "工藤薫", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "埼玉5区": {
+          "area": "",
+          "candidates": [
+            {"name": "井原隆", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "枝野幸男", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "飯塚佳佑", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉6区": {
+          "area": "",
+          "candidates": [
+            {"name": "尾花瑛仁", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "大島敦", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "津田賢伯", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "秋山もえ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "長島美子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉7区": {
+          "area": "",
+          "candidates": [
+            {"name": "中野英幸", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小宮山泰子", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "埼玉8区": {
+          "area": "",
+          "candidates": [
+            {"name": "柴山昌彦", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "市来伴子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "岡田静佳", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "埼玉9区": {
+          "area": "",
+          "candidates": [
+            {"name": "大塚拓", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "杉村慎治", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "埼玉10区": {
+          "area": "",
+          "candidates": [
+            {"name": "山口晋", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "坂本祐之輔", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "埼玉11区": {
+          "area": "",
+          "candidates": [
+            {"name": "小泉龍司", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "島田誠", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "布施卓人", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "柿沼遥輝", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "甲斐隆", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉12区": {
+          "area": "",
+          "candidates": [
+            {"name": "野中厚", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "森田俊和", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "埼玉13区": {
+          "area": "",
+          "candidates": [
+            {"name": "三ツ林裕巳", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "橋本幹彦", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "沢口千枝子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "高井崇志", "partyId": "reiwa", "partyName": "れいわ新選組"},
+            {"name": "杉山鎮夫", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉14区": {
+          "area": "",
+          "candidates": [
+            {"name": "藤田誠", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "鈴木義弘", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "苗村京子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "雨宮裕子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "埼玉15区": {
+          "area": "",
+          "candidates": [
+            {"name": "田中良生", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小山田経子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "南原竜樹", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "藤川広明", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "埼玉16区": {
+          "area": "",
+          "candidates": [
+            {"name": "土屋品子", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "三角創太", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "永堀健", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        }
+      }
+    },
+    "南関東": {
+      "prefectures": ["千葉県", "神奈川県", "山梨県"],
+      "proportionalSeats": 21,
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "districts": {
+        "千葉1区": {
+          "area": "",
+          "candidates": [
+            {"name": "門山宏哲", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "田嶋要", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "上田敦広", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "千葉2区": {
+          "area": "",
+          "candidates": [
+            {"name": "小林鷹之", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "佐藤由美", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "白石ちよ", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "千葉3区": {
+          "area": "",
+          "candidates": [
+            {"name": "松野博一", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "岡島一正", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "渡部公美子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "山本政幸", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "千葉4区": {
+          "area": "",
+          "candidates": [
+            {"name": "鹿嶋祐介", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "水沼秀幸", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "玉堀里衣", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "工藤聖子", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "高橋宏", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "千葉5区": {
+          "area": "",
+          "candidates": [
+            {"name": "英利アルフィヤ", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "矢崎堅太郎", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "岡野純子", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "宮路純一", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "小林修平", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "千葉6区": {
+          "area": "",
+          "candidates": [
+            {"name": "渡辺博道", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "安藤淳子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "武藤雄大", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "浦野真", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "出羽幹子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "千葉7区": {
+          "area": "",
+          "candidates": [
+            {"name": "斎藤健", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "林田章裕", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "川田龍平", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "千葉8区": {
+          "area": "",
+          "candidates": [
+            {"name": "松本泉", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "本庄知史", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "石塚貞通", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "宮本寛之", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "千葉9区": {
+          "area": "",
+          "candidates": [
+            {"name": "田宮寿人", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "奥野総一郎", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "田沼隆志", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "前田裕介", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "千葉10区": {
+          "area": "",
+          "candidates": [
+            {"name": "小池正昭", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "谷田川元", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "田村理江", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "千葉11区": {
+          "area": "",
+          "candidates": [
+            {"name": "森英介", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "多ケ谷亮", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "椎名史明", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "千葉12区": {
+          "area": "",
+          "candidates": [
+            {"name": "浜田靖一", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "葛原茂", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "大薄裕也", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "千葉13区": {
+          "area": "",
+          "candidates": [
+            {"name": "松本尚", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "宮川伸", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "中谷めぐ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "千葉14区": {
+          "area": "",
+          "candidates": [
+            {"name": "長野春信", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "野田佳彦", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "八鎌健太", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "中村愛", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川1区": {
+          "area": "",
+          "candidates": [
+            {"name": "丸尾南都子", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "篠原豪", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "浅川義治", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "神奈川2区": {
+          "area": "",
+          "candidates": [
+            {"name": "新田章文", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "柳家東三楼", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "片山智絵", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "並木まり子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "平本幸次郎", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川3区": {
+          "area": "",
+          "candidates": [
+            {"name": "中西健治", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "中村武人", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "二宮研", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "横山征吾", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "荻野ミエ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川4区": {
+          "area": "",
+          "candidates": [
+            {"name": "永田磨梨奈", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "早稲田夕季", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "田宮零一郎", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川5区": {
+          "area": "",
+          "candidates": [
+            {"name": "坂井学", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山崎誠", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "久坂くにえ", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "高宮美智子", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "神奈川6区": {
+          "area": "",
+          "candidates": [
+            {"name": "古川直季", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "青柳陽一郎", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "神奈川7区": {
+          "area": "",
+          "candidates": [
+            {"name": "鈴木馨祐", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "中谷一馬", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "神奈川8区": {
+          "area": "",
+          "candidates": [
+            {"name": "三谷英弘", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "江田憲司", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "神奈川9区": {
+          "area": "",
+          "candidates": [
+            {"name": "上原正裕", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "笠浩史", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "赤石博子", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "神奈川10区": {
+          "area": "",
+          "candidates": [
+            {"name": "田中和徳", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "金村龍那", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "山口翔平", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "中野智裕", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "橋本公夫", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川11区": {
+          "area": "",
+          "candidates": [
+            {"name": "小泉進次郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "為壮稔", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "前林恒平", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川12区": {
+          "area": "",
+          "candidates": [
+            {"name": "星野剛士", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "阿部知子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "沼上常生", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "菊竹進", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "神奈川13区": {
+          "area": "",
+          "candidates": [
+            {"name": "丸田康一郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "太栄志", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "石井匡", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川14区": {
+          "area": "",
+          "candidates": [
+            {"name": "赤間二郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "長友克洋", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "中村圭", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "先沖仁志", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川15区": {
+          "area": "",
+          "candidates": [
+            {"name": "河野太郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "佐々木克己", "partyId": "sdp", "partyName": "社会民主党"},
+            {"name": "三好諒", "partyId": "reiwa", "partyName": "れいわ新選組"},
+            {"name": "小山善光", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川16区": {
+          "area": "",
+          "candidates": [
+            {"name": "佐藤主迪", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "後藤祐一", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "神奈川17区": {
+          "area": "",
+          "candidates": [
+            {"name": "牧島かれん", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "佐々木奈保美", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "中村太一", "partyId": "dpfp", "partyName": "国民民主党"}
+          ]
+        },
+        "神奈川18区": {
+          "area": "",
+          "candidates": [
+            {"name": "山際大志郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "宗野創", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "横田光弘", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "西岡義高", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "八巻陽子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "藤田修一", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川19区": {
+          "area": "",
+          "candidates": [
+            {"name": "草間剛", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "添田勝", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "深作ヘスス", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "室井一真", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "神奈川20区": {
+          "area": "",
+          "candidates": [
+            {"name": "金沢結衣", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "大塚小百合", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "金子洋一", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "山梨1区": {
+          "area": "",
+          "candidates": [
+            {"name": "中谷真一", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "中島克仁", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "田中星那", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "鈴木大介", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "山梨2区": {
+          "area": "",
+          "candidates": [
+            {"name": "堀内詔子", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "早田記史", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        }
+      }
+    },
+    "東京": {
+      "prefectures": ["東京都"],
+      "proportionalSeats": 19,
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "districts": {
+        "東京1区": {
+          "area": "",
+          "candidates": [
+            {"name": "山田美樹", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "海江田万里", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "春山明日香", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "黒田朝陽", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "吉川里奈", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京2区": {
+          "area": "",
+          "candidates": [
+            {"name": "辻清人", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "今村充", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "鳩山紀一郎", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "細野真理", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "海江田悠輔", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "土橋章宏", "partyId": "other", "partyName": "その他"},
+            {"name": "天野こころ", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京3区": {
+          "area": "",
+          "candidates": [
+            {"name": "石原宏高", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "阿部祐美子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "石崎徹", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "石田慎吾", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "植木洋貴", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京4区": {
+          "area": "",
+          "candidates": [
+            {"name": "平将明", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "井戸正枝", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "谷川智行", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "嶋悦子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京5区": {
+          "area": "",
+          "candidates": [
+            {"name": "若宮健嗣", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "手塚仁雄", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "稲葉太郎", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "桑水流弓紀子", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "松岡登志子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京6区": {
+          "area": "",
+          "candidates": [
+            {"name": "畦元将吾", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "落合貴之", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "丸山勝己", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "島村直輝", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "福村康広", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京7区": {
+          "area": "",
+          "candidates": [
+            {"name": "丸川珠代", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "松尾明弘", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "渡辺泰之", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "入江伸子", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "石川友梨香", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "峰島侑也", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京8区": {
+          "area": "",
+          "candidates": [
+            {"name": "門寛子", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "吉田晴美", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "森田一成", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "海保杜久麻", "partyId": "reiwa", "partyName": "れいわ新選組"},
+            {"name": "永井漠", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "大谷司郎", "partyId": "other", "partyName": "その他"},
+            {"name": "藤原幸弘", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "東京9区": {
+          "area": "",
+          "candidates": [
+            {"name": "菅原一秀", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山岸一生", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "薬師寺道代", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "鈴木文哉", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京10区": {
+          "area": "",
+          "candidates": [
+            {"name": "鈴木隼人", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "鈴木庸介", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "梶原みずほ", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "安田伸", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "小山徹", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京11区": {
+          "area": "",
+          "candidates": [
+            {"name": "下村博文", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "阿久津幸彦", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "大豆生田実", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "高沢一基", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "横手海人", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "松方恵美", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "桑島康文", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京12区": {
+          "area": "",
+          "candidates": [
+            {"name": "高木啓", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "中原翔太", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "阿部司", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "久住勇樹", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "田原聖子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "黒石裕子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京13区": {
+          "area": "",
+          "candidates": [
+            {"name": "土田慎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "森洋介", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "沢田真吾", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "加地敏子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京14区": {
+          "area": "",
+          "candidates": [
+            {"name": "松島みどり", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "櫛渕万里", "partyId": "reiwa", "partyName": "れいわ新選組"},
+            {"name": "長南貴則", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "原努", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "丹悠", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京15区": {
+          "area": "",
+          "candidates": [
+            {"name": "大空幸星", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "酒井菜摘", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "三次由梨香", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "深見紗采", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "鈴木佳奈", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "吉野敏明", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京16区": {
+          "area": "",
+          "candidates": [
+            {"name": "大西洋平", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "柴田勝之", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "竹内知子", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "村上剛", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京17区": {
+          "area": "",
+          "candidates": [
+            {"name": "平沢勝栄", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "反田麻理", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "猪口幸子", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "長谷川貴子", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "杉浦慎一郎", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "円より子", "partyId": "ind", "partyName": "無所属"},
+            {"name": "鈴木真志", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京18区": {
+          "area": "",
+          "candidates": [
+            {"name": "福田かおる", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "松下玲子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "鈴木佑馬", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "徳永由紀子", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "吉田綾", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京19区": {
+          "area": "",
+          "candidates": [
+            {"name": "松本洋平", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "末松義規", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "すわれいこ", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "いでしげ美津子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "一ノ瀬ようこ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京20区": {
+          "area": "",
+          "candidates": [
+            {"name": "木原誠二", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "大西けんたろう", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "宮本徹", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "掛山しげき", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京21区": {
+          "area": "",
+          "candidates": [
+            {"name": "小田原きよし", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "鈴木烈", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "黒田太郎", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "ほしの奈美", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "やた一久", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京22区": {
+          "area": "",
+          "candidates": [
+            {"name": "伊藤達也", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山花郁夫", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "鈴木みか", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京23区": {
+          "area": "",
+          "candidates": [
+            {"name": "川松真一朗", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "伊藤俊輔", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "池川友一", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "舟見ゆうき", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京24区": {
+          "area": "",
+          "candidates": [
+            {"name": "はぎうだ光一", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "細貝悠", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "ほそやりょう", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "よくらさゆり", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "深田もえ", "partyId": "ind", "partyName": "無所属"}
+          ]
+        },
+        "東京25区": {
+          "area": "",
+          "candidates": [
+            {"name": "井上信治", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "よだかれん", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "宮崎たろう", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "むなかた久敬", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "木村なみ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京26区": {
+          "area": "",
+          "candidates": [
+            {"name": "今岡うえき", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "松井かな子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "坂元ゆうき", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "すがぬまけい子", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "まつばら仁", "partyId": "ind", "partyName": "無所属"},
+            {"name": "うさみ登", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京27区": {
+          "area": "",
+          "candidates": [
+            {"name": "黒崎ゆういち", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "ながつま昭", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "須山たかし", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "おがさわら愛子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京28区": {
+          "area": "",
+          "candidates": [
+            {"name": "安藤たかお", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "高松さとし", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "橋口なほ", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "三澤宏明", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "たかの直美", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "村松一希", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "東京29区": {
+          "area": "",
+          "candidates": [
+            {"name": "長沢こうすけ", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "木村たけつか", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "たるい良和", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "鈴木けんいち", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "堀川てつろう", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "小坂英二", "partyId": "other", "partyName": "その他"}
+          ]
+        },
+        "東京30区": {
+          "area": "",
+          "candidates": [
+            {"name": "長島昭久", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "五十嵐えり", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "川上りゅうせい", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "ことぶき玲子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        }
+      }
+    }
+  }
+}

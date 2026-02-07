@@ -1,0 +1,438 @@
+{
+  "blocks": {
+    "北海道": {
+      "prefectures": ["北海道"],
+      "proportionalSeats": 8,
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "districts": {
+        "北海道1区": {
+          "area": "",
+          "candidates": [
+            {"name": "梁瀬和生", "partyId": "ind", "partyName": "無所属"},
+            {"name": "伊藤仁", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "道下大樹", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "船橋利実", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小野寺秀", "partyId": "sdp", "partyName": "社会民主党"}
+          ]
+        },
+        "北海道2区": {
+          "area": "",
+          "candidates": [
+            {"name": "松木謙公", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "吉田岳史", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "畠山和也", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "髙橋はるみ", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        },
+        "北海道3区": {
+          "area": "",
+          "candidates": [
+            {"name": "荒井優", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "山岡達丸", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "大築くれは", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "浅尾大輔", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        },
+        "北海道4区": {
+          "area": "",
+          "candidates": [
+            {"name": "久保田つとむ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "山本こうへい", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "本多平直", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "中村裕之", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        },
+        "北海道5区": {
+          "area": "",
+          "candidates": [
+            {"name": "池田真紀", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "和田和久", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "谷川将太", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "和盛沢暢之", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        },
+        "北海道6区": {
+          "area": "",
+          "candidates": [
+            {"name": "佐々木隆博", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "はたやま和也", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "松木和哉", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "鈴木貴子", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        },
+        "北海道7区": {
+          "area": "",
+          "candidates": [
+            {"name": "逢坂誠二", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "冨澤理", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "江本和彦", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "大岡敏孝", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        },
+        "北海道8区": {
+          "area": "",
+          "candidates": [
+            {"name": "田中大貴", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "多田えりか", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "宮川潤", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "前田一男", "partyId": "ldp", "partyName": "自由民主党"}
+          ]
+        }
+      }
+    },
+    "東北": {
+      "prefectures": ["青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
+      "proportionalSeats": 12,
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "districts": {
+        "青森1区": {
+          "area": "",
+          "candidates": [
+            {"name": "田中けん", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "升田世喜男", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "岡田華子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "神田潤一", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "福士亮", "partyId": "reform", "partyName": "中道改革連合"}
+          ]
+        },
+        "青森2区": {
+          "area": "",
+          "candidates": [
+            {"name": "赤平あや", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "諏訪益一", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "江渡聡徳", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "濵田晋", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "青森3区": {
+          "area": "",
+          "candidates": [
+            {"name": "福原英孝", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山内崇", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "野宮芳則", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "齋藤みな子", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "岩手1区": {
+          "area": "",
+          "candidates": [
+            {"name": "階猛", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "高橋元一郎", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "菊池長右ェ門", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "高橋じゅん子", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "岩手2区": {
+          "area": "",
+          "candidates": [
+            {"name": "田代てつや", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "櫻庭誠", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "鈴木俊一", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "鈴木元", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "岩手3区": {
+          "area": "",
+          "candidates": [
+            {"name": "髙橋ビンセント", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "黄川田徹", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "藤原崇", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "今野謙", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "小野寺みのる", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "宮城1区": {
+          "area": "",
+          "candidates": [
+            {"name": "野田譲", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "伊藤智恵", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "小野寺健", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "堀江由衣", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "小野あや", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "宮城2区": {
+          "area": "",
+          "candidates": [
+            {"name": "桜井充", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "芳賀道也", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "西村秀記", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "秋葉賢也", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "渡辺博之", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "宮城3区": {
+          "area": "",
+          "candidates": [
+            {"name": "橋本きょうこ", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "岡達也", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "西村ちなみ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "伊藤幸子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "たけしま知彦", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "宮城4区": {
+          "area": "",
+          "candidates": [
+            {"name": "伊藤俊輔", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "江村利雄", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "伊藤信太郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "石垣のりこ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "佐藤恵理", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "櫻井綾", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "秋田1区": {
+          "area": "",
+          "candidates": [
+            {"name": "長谷川たかこ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "眞崎豊", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "佐藤武志", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "児玉まゆみ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "小山みつひろ", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "西村みのり", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "秋田2区": {
+          "area": "",
+          "candidates": [
+            {"name": "金田勝年", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "緑川貴士", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "中泉松司", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "村岡敏英", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "川口洋平", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "佐々木ふみえ", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "山形1区": {
+          "area": "",
+          "candidates": [
+            {"name": "遠藤利明", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "早坂良子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "吉村美栄子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "新田稔", "partyId": "sanseito", "partyName": "参政党"},
+            {"name": "阿部喬", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "山形2区": {
+          "area": "",
+          "candidates": [
+            {"name": "鈴木憲和", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "五十嵐智洋", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "水戸将史", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "近藤洋介", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "原田まさる", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "池田めぐみ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "山形3区": {
+          "area": "",
+          "candidates": [
+            {"name": "奥山えいじ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "加藤鮎子", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山尾しおり", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "梅津雄司", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "中森れい", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "福島1区": {
+          "area": "",
+          "candidates": [
+            {"name": "金子恵美", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "亀岡偉民", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小山田友子", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "立石雅昭", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "福島2区": {
+          "area": "",
+          "candidates": [
+            {"name": "熊田裕通", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "塩田ひろあき", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "松本まさひろ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "小林秀一", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        },
+        "福島3区": {
+          "area": "",
+          "candidates": [
+            {"name": "上杉謙太郎", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "玄葉光一郎", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "菅家一郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "吉野和彦", "partyId": "ishin", "partyName": "日本維新の会"}
+          ]
+        },
+        "福島4区": {
+          "area": "",
+          "candidates": [
+            {"name": "佐藤つよし", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "小熊慎司", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "穂積慶", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "石井満子", "partyId": "jcp", "partyName": "日本共産党"}
+          ]
+        }
+      }
+    },
+    "北陸信越": {
+      "prefectures": ["新潟県", "富山県", "石川県", "福井県", "長野県"],
+      "proportionalSeats": 10,
+      "proportionalParties": ["ldp", "ishin", "reform", "dpfp", "jcp", "reiwa", "sdp", "sanseito", "nhk"],
+      "districts": {
+        "新潟1区": {
+          "area": "",
+          "candidates": [
+            {"name": "塚田一郎", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "西村ちなみ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "池田千賀子", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "梅原克彦", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "鈴木祐太", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "新潟2区": {
+          "area": "",
+          "candidates": [
+            {"name": "内山航", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "鷲尾英一郎", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "白川綾", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "飯田雄基", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "松田学", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "本間奈々", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "新潟3区": {
+          "area": "",
+          "candidates": [
+            {"name": "斎藤洋明", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "黒岩宇洋", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "渡辺英明", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "小林誠", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "佐藤匠", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "田辺莉奈", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "新潟4区": {
+          "area": "",
+          "candidates": [
+            {"name": "菊田真紀子", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "金子恵美", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "青木千夏", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "佐野翔太", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "中村正和", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "高橋かおり", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "新潟5区": {
+          "area": "",
+          "candidates": [
+            {"name": "米山隆一", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "泉田裕彦", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "高橋千鶴", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "井手上翔", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "小林祐介", "partyId": "dpfp", "partyName": "国民民主党"},
+            {"name": "山田美咲", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "富山1区": {
+          "area": "",
+          "candidates": [
+            {"name": "田畑裕明", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "田中まりこ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "川口あや", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "池原真紀", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "山本まどか", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "富山2区": {
+          "area": "",
+          "candidates": [
+            {"name": "上田英俊", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "堂故茂", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "森かなえ", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "中川久美", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "吉田さくら", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "石川1区": {
+          "area": "",
+          "candidates": [
+            {"name": "佐々木紀", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "近藤和也", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "山口つよし", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "石川みゆき", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "高橋れい", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "石川2区": {
+          "area": "",
+          "candidates": [
+            {"name": "宮本周司", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "奥田建", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "木村浩一", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "田中まさこ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "藤田あかり", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "福井1区": {
+          "area": "",
+          "candidates": [
+            {"name": "稲田朋美", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "森井ゆうこ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "佐藤まさる", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "山田たかし", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "中村さき", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "福井2区": {
+          "area": "",
+          "candidates": [
+            {"name": "山本拓", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "斉木武志", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "田村けんじ", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "木村えり", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "西川あい", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "長野1区": {
+          "area": "",
+          "candidates": [
+            {"name": "篠原孝", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "若林健太", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "小林まさき", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "竹内愛", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "田中理恵", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "長野2区": {
+          "area": "",
+          "candidates": [
+            {"name": "下条みつ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "務台俊介", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "山本ともこ", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "松本あきら", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "中村さゆり", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "長野3区": {
+          "area": "",
+          "candidates": [
+            {"name": "井出庸生", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "神津みやこ", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "大久保けん", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "小川ひろこ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "伊藤みさき", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        },
+        "長野4区": {
+          "area": "",
+          "candidates": [
+            {"name": "後藤茂之", "partyId": "ldp", "partyName": "自由民主党"},
+            {"name": "手塚大輔", "partyId": "reform", "partyName": "中道改革連合"},
+            {"name": "加藤りな", "partyId": "ishin", "partyName": "日本維新の会"},
+            {"name": "渡辺ゆみ", "partyId": "jcp", "partyName": "日本共産党"},
+            {"name": "鈴木みほ", "partyId": "sanseito", "partyName": "参政党"}
+          ]
+        }
+      }
+    }
+  }
+}

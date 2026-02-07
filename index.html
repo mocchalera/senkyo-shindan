@@ -602,6 +602,122 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .prefecture-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 10px;
+    }
+
+    .prefecture-btn {
+      padding: 14px 12px;
+      border: 1px solid rgba(148, 163, 184, 0.36);
+      background: linear-gradient(180deg, rgba(51, 65, 85, 0.4), rgba(30, 41, 59, 0.72));
+      color: #e2e8f0;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 160ms ease;
+    }
+
+    .prefecture-btn:hover {
+      border-color: rgba(147, 197, 253, 0.8);
+      transform: translateY(-1px);
+      background: linear-gradient(180deg, rgba(37, 99, 235, 0.36), rgba(30, 41, 59, 0.82));
+    }
+
+    .district-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 8px;
+    }
+
+    .district-btn {
+      padding: 12px 10px;
+      border: 1px solid rgba(148, 163, 184, 0.36);
+      background: linear-gradient(180deg, rgba(51, 65, 85, 0.4), rgba(30, 41, 59, 0.72));
+      color: #e2e8f0;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: all 160ms ease;
+    }
+
+    .district-btn:hover {
+      border-color: rgba(147, 197, 253, 0.8);
+      transform: translateY(-1px);
+      background: linear-gradient(180deg, rgba(37, 99, 235, 0.36), rgba(30, 41, 59, 0.82));
+    }
+
+    .candidate-card {
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      background: rgba(15, 23, 42, 0.88);
+      padding: 12px;
+      margin-bottom: 10px;
+      border-left: 4px solid;
+    }
+
+    .candidate-card h5 {
+      margin: 0;
+      font-size: 1rem;
+      color: #f1f5f9;
+      line-height: 1.35;
+    }
+
+    .candidate-card p {
+      margin: 5px 0 0;
+      font-size: 0.85rem;
+      color: #cbd5e1;
+    }
+
+    .candidate-badge {
+      display: inline-block;
+      background: rgba(34, 197, 94, 0.2);
+      border: 1px solid rgba(34, 197, 94, 0.5);
+      color: #86efac;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      margin-left: 8px;
+    }
+
+    .back-btn {
+      margin-bottom: 16px;
+      background: rgba(30, 41, 59, 0.8);
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.35);
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 160ms ease;
+    }
+
+    .back-btn:hover {
+      background: rgba(51, 65, 85, 0.9);
+      border-color: rgba(148, 163, 184, 0.5);
+    }
+
+    .region-section {
+      margin-bottom: 24px;
+    }
+
+    .region-title {
+      margin: 0 0 12px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
     .learn-block {
@@ -905,7 +1021,17 @@
           </div>
         </div>
 
-        <button id="startButton" class="btn btn-primary">診断スタート</button>
+        <div class="actions">
+          <button id="selectConstituencyButton" class="btn btn-primary">選挙区を選んで診断する</button>
+          <button id="startButton" class="btn btn-secondary">選挙区を選ばずに始める</button>
+        </div>
+      </section>
+
+      <section id="constituencyScreen" class="screen panel" aria-labelledby="constituencyTitle">
+        <h2 id="constituencyTitle" class="welcome-title">選挙区を選択</h2>
+        <p class="welcome-subtitle">お住まいの都道府県と選挙区を選んでください</p>
+
+        <div id="constituencyContent"></div>
       </section>
 
       <section id="quizScreen" class="screen panel" aria-live="polite">
@@ -941,6 +1067,24 @@
 
   <script>
     (() => {
+      // Will be populated dynamically
+      let districtData = null;
+      let selectedConstituency = null;
+
+      const prefectureToBlock = {
+        "北海道": "北海道",
+        "青森県": "東北", "岩手県": "東北", "宮城県": "東北", "秋田県": "東北", "山形県": "東北", "福島県": "東北",
+        "新潟県": "北陸信越", "富山県": "北陸信越", "石川県": "北陸信越", "福井県": "北陸信越", "長野県": "北陸信越",
+        "茨城県": "北関東", "栃木県": "北関東", "群馬県": "北関東", "埼玉県": "北関東",
+        "千葉県": "南関東", "神奈川県": "南関東", "山梨県": "南関東",
+        "東京都": "東京",
+        "岐阜県": "東海", "静岡県": "東海", "愛知県": "東海", "三重県": "東海",
+        "滋賀県": "近畿", "京都府": "近畿", "大阪府": "近畿", "兵庫県": "近畿", "奈良県": "近畿", "和歌山県": "近畿",
+        "鳥取県": "中国", "島根県": "中国", "岡山県": "中国", "広島県": "中国", "山口県": "中国",
+        "徳島県": "四国", "香川県": "四国", "愛媛県": "四国", "高知県": "四国",
+        "福岡県": "九州", "佐賀県": "九州", "長崎県": "九州", "熊本県": "九州", "大分県": "九州", "宮崎県": "九州", "鹿児島県": "九州", "沖縄県": "九州"
+      };
+
       const parties = [
         {
           id: "ldp",
@@ -1490,6 +1634,29 @@
         }
       ];
 
+      // Load district data from JSON files
+      async function loadDistrictData() {
+        if (districtData) return districtData;
+
+        const files = [
+          'data-block-a.json',
+          'data-block-b.json',
+          'data-block-c.json',
+          'data-block-d.json'
+        ];
+
+        const merged = {};
+
+        for (const file of files) {
+          const response = await fetch(file);
+          const data = await response.json();
+          Object.assign(merged, data.blocks);
+        }
+
+        districtData = merged;
+        return districtData;
+      }
+
       const maxScoresByParty = calculatePartyMaxScores();
       const state = {
         currentQuestion: 0,
@@ -1500,10 +1667,12 @@
       const screens = {
         welcome: document.getElementById("welcomeScreen"),
         quiz: document.getElementById("quizScreen"),
-        result: document.getElementById("resultScreen")
+        result: document.getElementById("resultScreen"),
+        constituency: document.getElementById("constituencyScreen")
       };
 
       const startButton = document.getElementById("startButton");
+      const selectConstituencyButton = document.getElementById("selectConstituencyButton");
       const progressText = document.getElementById("progressText");
       const progressPercent = document.getElementById("progressPercent");
       const progressFill = document.getElementById("progressFill");
@@ -1515,10 +1684,95 @@
       const confettiCanvas = document.getElementById("confetti");
 
       startButton.addEventListener("click", startQuiz);
+      selectConstituencyButton.addEventListener("click", showConstituencySelection);
 
       tabButtons.forEach((button) => {
         button.addEventListener("click", () => switchTab(button.dataset.tab));
       });
+
+      async function showConstituencySelection() {
+        await loadDistrictData();
+        switchScreen("constituency");
+        renderPrefectureSelection();
+      }
+
+      function renderPrefectureSelection() {
+        const regions = {
+          "北海道・東北": ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
+          "関東": ["茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県", "山梨県"],
+          "中部": ["新潟県", "富山県", "石川県", "福井県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県"],
+          "近畿": ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
+          "中国・四国": ["鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県"],
+          "九州": ["福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"]
+        };
+
+        const html = Object.entries(regions).map(([region, prefs]) => `
+          <div class="region-section">
+            <h3 class="region-title">${region}</h3>
+            <div class="prefecture-grid">
+              ${prefs.map(pref => `
+                <button class="prefecture-btn" data-prefecture="${pref}">${pref}</button>
+              `).join("")}
+            </div>
+          </div>
+        `).join("");
+
+        document.getElementById("constituencyContent").innerHTML = `
+          <button class="back-btn" id="backToWelcome">← 戻る</button>
+          ${html}
+        `;
+
+        document.getElementById("backToWelcome").addEventListener("click", () => {
+          switchScreen("welcome");
+        });
+
+        document.querySelectorAll(".prefecture-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            const pref = btn.dataset.prefecture;
+            renderDistrictSelection(pref);
+          });
+        });
+      }
+
+      function renderDistrictSelection(prefecture) {
+        const blockName = prefectureToBlock[prefecture];
+        const block = districtData[blockName];
+
+        if (!block || !block.districts) {
+          alert("この都道府県のデータが見つかりません");
+          return;
+        }
+
+        const districts = Object.keys(block.districts).filter(d => d.includes(prefecture.replace(/[都道府県]/g, "")));
+
+        const html = `
+          <button class="back-btn" id="backToPrefecture">← 都道府県選択に戻る</button>
+          <h3 class="section-title">${prefecture}の選挙区を選択</h3>
+          <div class="district-grid">
+            ${districts.map(district => `
+              <button class="district-btn" data-district="${district}">${district}</button>
+            `).join("")}
+          </div>
+        `;
+
+        document.getElementById("constituencyContent").innerHTML = html;
+
+        document.getElementById("backToPrefecture").addEventListener("click", renderPrefectureSelection);
+
+        document.querySelectorAll(".district-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            const district = btn.dataset.district;
+            selectedConstituency = {
+              prefecture,
+              district,
+              blockName,
+              candidates: block.districts[district].candidates,
+              proportionalParties: block.proportionalParties
+            };
+            startQuiz();
+          });
+        });
+      }
 
       document.addEventListener("keydown", (event) => {
         if (!screens.quiz.classList.contains("active")) {
@@ -1758,13 +2012,42 @@
             <p><strong>学びポイント:</strong> あなたの回答と各政党の政策比較を「学びモード」で確認できます。争点ごとの差が一目でわかります。</p>
           </section>
 
+          ${selectedConstituency ? `
+            <h3 class="section-title">あなたの選挙区の候補者</h3>
+            <p style="color:#94a3b8;font-size:0.88rem;margin:8px 0 12px;">${selectedConstituency.district}</p>
+            <div class="party-grid">
+              ${selectedConstituency.candidates.map((candidate) => {
+                const party = parties.find(p => p.id === candidate.partyId) || { color: "#94a3b8" };
+                return `
+                  <div class="candidate-card" style="border-left-color:${party.color};">
+                    <h5>${candidate.name}</h5>
+                    <p>${candidate.partyName}</p>
+                  </div>
+                `;
+              }).join("")}
+            </div>
+
+            <h3 class="section-title">比例代表で投票できる政党（${selectedConstituency.blockName}ブロック）</h3>
+            <div class="chip-row">
+              ${selectedConstituency.proportionalParties.map((partyId) => {
+                const party = parties.find(p => p.id === partyId);
+                return party ? `<span class="chip" style="background:${party.color}22;border-color:${party.color}55;color:${party.color};">${party.short}</span>` : '';
+              }).join("")}
+            </div>
+          ` : ''}
+
           <h3 class="section-title">政党別サマリー</h3>
           <div class="party-grid">
             ${result.ranked.map((party) => {
               const issues = party.matchIssues.length ? party.matchIssues : ["関連度が分散しました"];
+              const hasCandidate = selectedConstituency && selectedConstituency.candidates.some(c => c.partyId === party.id);
               return `
                 <article class="party-detail">
-                  <h4 style="color:${party.color};">${party.name} <span style="font-size:0.8rem;color:#cbd5e1;">(${party.percent}%)</span></h4>
+                  <h4 style="color:${party.color};">
+                    ${party.name}
+                    ${hasCandidate ? '<span class="candidate-badge">候補者あり</span>' : ''}
+                    <span style="font-size:0.8rem;color:#cbd5e1;">(${party.percent}%)</span>
+                  </h4>
                   <p>${party.description}</p>
                   <div class="chip-row">
                     ${issues.map((issue) => `<span class="chip">${issue}</span>`).join("")}
@@ -1789,6 +2072,7 @@
         const shareButton = document.getElementById("shareButton");
         if (restartButton) {
           restartButton.addEventListener("click", () => {
+            selectedConstituency = null;
             switchScreen("welcome");
             window.scrollTo({ top: 0, behavior: "smooth" });
           });
